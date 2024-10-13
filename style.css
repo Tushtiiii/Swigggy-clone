@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    font-family:  ProximaNova, arial, Helvetica Neue, sans-serif;
+    /* background-color: aqua; */
+}
+nav{
+    height:100px ;
+    background-color: rgb(255, 82, 0);
+    display: flex;
+    justify-content:space-evenly ;
+    padding-top: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#sign-bttn{
+    background-color: black;
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+
+}
+#bttn{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+}
+#main{
+    color: white;
+    background: rgb(255 82 0);
+    display: flex;
+    /* align-items: start; */
+    flex-wrap: wrap;
+    padding-top: 10px;
+    position: relative;
+
+}
+#main img{
+    height:600px;
+    width: 350px;
+    /* position:relative; */
+}
+#main h1{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#search{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    align-items:start;
+    background-color: rgb(255, 82, 0);
+    height:80px ;
+    width: 100%;
+}
+#search-city{
+    height: 75px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#search-res{
+    height: 75px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#cont{
+    background-color: rgb(255, 82, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#main-cont{
+    height: 300px;
+    width: 280px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+}
