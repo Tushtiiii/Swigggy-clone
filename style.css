@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family:  ProximaNova, arial, Helvetica Neue, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 nav{
     height:100px ;
     width: 100%;
